@@ -3,7 +3,8 @@ const https = require('https');
 class Ajax {
     get(url) {
         console.log(url)
-        // let content = '';
+        let content = '';
+        let content1 = '';
         // res = res.setEncoding(decode)
         // res.on('data', function (chunk) {
         //     content += chunk;
